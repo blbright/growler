@@ -1,1 +1,12 @@
-style.css
+body {
+    background: url("http://pre02.deviantart.net/6b51/th/pre/i/2013/239/6/c/ninjas_telling_secrets_by_sythmog-d6jzeme.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+}
+h2 {
+  color: black;
+}
+form {
+ color: black;
+}

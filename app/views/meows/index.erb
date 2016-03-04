@@ -1,18 +1,15 @@
-<form action="/meows" method="post">
-  Meow:<br>
-  <input type="text" name="meow[meow]" id="meower_id"><br>
-  <br>
-  <input type="submit">
-</form>
+
+<ul>
+  <% @meows.each do |meow| %>
+  <li><%= meow.meow %></li>
+  <% end %>
+</ul>
+
+<br>
+
+<a href="/meows/new"><h2>Tell me another!</h2></a>
+<br>
 
 
-
-
-
-
-
-
-
-
-
-<!-- <a href="/cart">View your shopping cart</a> -->
+<br>
+<a href="/meowers/new">Ninja Out</a>
