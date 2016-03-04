@@ -14,13 +14,12 @@ class MeowersController < ApplicationController
     meower = Meower.new(params["meower"])
     meower.save
     session[:meower]
-    redirect '/meow'
+    redirect '/meows'
   end
 
-  get '/meowers/new' do
-    erb :new
-  end
+  # get '/meowers/new' do
+  #   erb :new
+  # end
 
-  get '/meow'
 
 end

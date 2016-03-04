@@ -1,1 +1,12 @@
-<h1> <%=@meower %> </h1>
+<h1>Add a Meower</h1>
+
+<form action="/meowers" method="post">
+  Meower:<br>
+  <input type="text" name="meower[meower]"><br>
+  <br>
+  Email:<br>
+  <input type="text" name="meower[email]"><br>
+  <br>
+  <br>
+  <input type="submit">
+</form>
