@@ -13,4 +13,6 @@ ActiveRecord::Base.establish_connection(
 )
 
 use Rack::MethodOverride
+use MeowsController
+use MeowersController
 run ApplicationController
